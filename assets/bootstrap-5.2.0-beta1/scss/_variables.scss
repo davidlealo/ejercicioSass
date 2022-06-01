@@ -17,6 +17,7 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
+$purple: cf649a !default;
 // scss-docs-end gray-color-variables
 
 // fusv-disable
@@ -63,7 +64,8 @@ $colors: (
   "black":      $black,
   "white":      $white,
   "gray":       $gray-600,
-  "gray-dark":  $gray-800
+  "gray-dark":  $gray-800,
+  "purple"
 ) !default;
 // scss-docs-end colors-map
 
@@ -306,6 +308,7 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
+$purple:        $purple !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -317,7 +320,8 @@ $theme-colors: (
   "warning":    $warning,
   "danger":     $danger,
   "light":      $light,
-  "dark":       $dark
+  "dark":       $dark,
+  "purple":     $purple
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -704,6 +708,7 @@ $table-variants: (
   "danger":     shift-color($danger, $table-bg-scale),
   "light":      $light,
   "dark":       $dark,
+  "purple":     $purple,
 ) !default;
 // scss-docs-end table-loop
 
